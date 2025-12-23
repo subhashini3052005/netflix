@@ -1,0 +1,104 @@
+.frontpage{
+    color: aliceblue;
+    background-image: url("../asset/img6.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+.b1{
+   display: flex; 
+   justify-content:space-between ;
+   padding-top: 25px;
+   max-width: 1400px;
+    
+}
+.icon{
+    height: 45px;
+    padding-left: 150px;
+}
+.signin{
+    background-color:rgb(226,3,3) ;
+    border: none;
+    height: 33px;
+    width: 78px;
+    color: aliceblue;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+    
+}
+.right{
+    display: flex;
+    gap: 10px;
+}
+.lang{
+    background: transparent;
+    color: aliceblue;
+    height: 33px;
+    width: 82px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.signin:hover{
+    background-color: rgb(177,2,2);
+}
+.header{
+    text-align: center;
+    margin-top: 150px;
+}
+.header h1{
+    font-size: 56px;
+    font-weight: 800;
+}
+.header h2{
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header p{
+    position: relative;
+    top:-20px;
+}
+.b2{
+    text-align: center;
+
+}
+.b2 input{
+    width: 350px;
+    height: 45px;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(97,99,100);
+
+}
+.b2 label{
+    position: relative;
+    left: -340px;
+    color:rgb(134, 137, 138) ;
+}
+.getstarted{
+    background-color:rgb(226,3,3) ;
+    border: none;
+    height: 50px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    position: relative;
+    left:-85px;
+    bottom: -5px;
+}
+.getstarted:hover{
+    background-color:rgb(177,2,2);
+}
+.b2 input:focus + label,
+.b2 input:not(:placeholder-shown)+label{
+    font-size: 12px;
+}
