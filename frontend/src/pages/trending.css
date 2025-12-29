@@ -8,7 +8,7 @@
 }
 .trending{
     background-color: black;
-    height: 200vh;
+    height: 400vh;
     padding-top:2px;
 }
 .wrapper{
@@ -58,4 +58,96 @@
 }
 .ct p{
     color: rgb(139,142,145);
+}
+.wrapper3{
+    width: max-content;
+    margin: 0 auto; 
+    padding-top: 30px;
+    display: flex ;
+    gap: 8px;
+    flex-direction: column; 
+}
+.wrapper3 h1{
+    color: aliceblue;
+    font-size: 25px;
+}
+.wrapper3 button{
+    height: 80px;
+    width: 1150px;
+    text-align: justify;
+    font-size: 23px;
+    padding-left: 20px;
+    background-color: rgb(36, 38, 38);
+    border: none;
+    color: aliceblue;
+}
+.ct1 p,.ct2 p,.ct3 p,.ct4 p,.ct5 p,.ct6 p{
+    margin: 0;
+    color: aliceblue;
+    max-width: 1111px;
+    font-size: 23px;
+    padding:20px ;
+    background-color:rgb(36, 38, 38) ;
+    margin-top:2px;
+}
+.wrapper4{
+    justify-items: center;
+    margin-top: 80px;
+}
+.b3{
+    text-align: center;
+    display: flex;
+    gap:10px;
+
+}
+.b3 input{
+    width: 500px;
+    height: 45px;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(97,99,100);
+    color: aliceblue;
+    padding-top: 13px;
+    padding-left: 30px;
+    
+
+}
+.b3 label{
+    position: absolute;
+    left: 420px;
+    top:314vh;
+    transform: translateY(-50%);
+    color:rgb(134, 137, 138) ;
+    transition: 0.3s ease;
+    
+}
+.getstarted{
+    background-color:rgb(226,3,3) ;
+    border: none;
+    height: 60px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+    
+}
+.getstarted:hover{
+    background-color:rgb(177,2,2);
+}
+.b3 input:focus + label,
+.b3 input:not(:placeholder-shown)+label{
+    font-size: 14px;
+    top: 312vh;
+    
+}
+.wrapper4 p{
+    color: aliceblue;
+}
+.wrapper5{
+     justify-items: center;
+     margin-top: 80px;
 }

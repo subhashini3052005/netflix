@@ -71,7 +71,9 @@
     border: none;
     border-radius: 3px;
     box-shadow: 0 0 0 1px rgb(97,99,100);
-    
+     padding-top: 13px;
+    padding-left: 40px;
+    color: aliceblue;
 
 }
 .b2 label{

@@ -53,7 +53,7 @@ import six from "../asset/six.png"
           <div className="ct1">
             <button onClick={()=>setshowmenu(!showmenu)}>What is Netflix?</button>
             {showmenu && (
-              <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+              <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. <br /><br />
 
 You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
             )}
@@ -92,6 +92,43 @@ You can also download your favourite shows with the iOS or Android app. Use down
 Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
             )}
           </div>
+        </div>
+        <div className="wrapper4">
+          <p>Ready to watch?enter your email to create or restart your membership</p>     
+       <div className="b3">
+        <input type="email" placeholder='' required />
+        <label >Email address</label>
+        <button className='getstarted'>Get Started</button>
+        </div>
+        </div>
+        <div className="wrapper5">
+          <p>Questions? Call <a href="">000-800-919-1743</a></p>
+          <div className="column">
+            <a href="">FAQ</a>
+            <a href="">Investor Relations</a>
+            <a href="">Privacy</a>
+            <a href="">Speed Test</a>
+            <a href="">Help center</a>
+            <a href="">Jobs</a>
+            <a href="">Cookie Preferences</a>
+            <a href="">Legal Notices</a>
+            <a href="">Accounts</a>
+            <a href="">Ways to watch</a>
+            <a href="">Corporate Information</a>
+            <a href="">Only on Netflix</a>
+            <a href="">Media Centre</a>
+            <a href="">Terms of Use</a>
+            <a href="">Contact Us</a>   
+           </div>
+           <div className="right">
+        <select className='lang'>
+          <option value="">English</option>
+          <option value="option1">Hindi</option>
+          <option value="option2">Telugu</option>
+        </select> 
+        </div>
+        <p>Netflix India</p>
+        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">learn more</a></p>
         </div>
     </div>
   )
