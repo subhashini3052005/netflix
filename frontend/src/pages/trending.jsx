@@ -102,7 +102,7 @@ Kids profiles come with PIN-protected parental controls that let you restrict th
         </div>
         </div>
         <div className="wrapper5">
-          <p>Questions? Call <a href="">000-800-919-1743</a></p>
+          <h2>Questions? Call <a href="">000-800-919-1743</a></h2>
           <div className="column">
             <a href="">FAQ</a>
             <a href="">Investor Relations</a>
@@ -121,13 +121,13 @@ Kids profiles come with PIN-protected parental controls that let you restrict th
             <a href="">Contact Us</a>   
            </div>
            <div className="right">
-        <select className='lang'>
+        <select className="lang">
           <option value="">English</option>
           <option value="option1">Hindi</option>
           <option value="option2">Telugu</option>
         </select> 
         </div>
-        <p>Netflix India</p>
+        <h1>Netflix India</h1>
         <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="">learn more</a></p>
         </div>
     </div>

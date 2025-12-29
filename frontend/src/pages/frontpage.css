@@ -41,6 +41,9 @@
     font-weight: 600;
     font-size: 14px;
 }
+.lang option{
+    color: black;
+}
 .signin:hover{
     background-color: rgb(177,2,2);
 }
