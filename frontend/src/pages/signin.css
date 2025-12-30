@@ -1,0 +1,94 @@
+.sign{
+     color: aliceblue;
+    background-image: url("../asset/signin.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.contain{
+    background-color: rgba(0, 0, 0, 0.562);
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding-left: 60px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+.sign img{
+    padding-top: 25px;
+}
+.contain2 input,.contain3 input{
+    width: 300px;
+    height: 38px;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(97,99,100);
+    padding-top: 13px;
+    padding-left: 40px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.l1{
+    position: absolute;
+    left: 616px;
+    top: 243px;
+    transform: translateY(-50%);
+    color:rgb(134, 137, 138) ;
+    transition: 0.3s ease;
+}
+.l2{
+    position: absolute;
+    left: 616px;
+    top: 315px;
+    transform: translateY(-50%);
+    color:rgb(134, 137, 138) ;
+    transition: 0.3s ease;
+}
+.s1{
+    background-color:rgb(226,3,3) ;
+    border: none;
+    height: 40px;
+    width: 346px;
+    color: aliceblue;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.s1:hover{
+    background-color:rgb(177,2,2);
+}
+.contain2 input:focus + label,
+.contain2 input:not(:placeholder-shown)+label{
+    font-size: 12px;
+    top: 233px;
+    
+}
+.contain3 input:focus + label,
+.contain3 input:not(:placeholder-shown)+label{
+    font-size: 12px;
+    top: 305px;
+}
+.contain3 h3{
+    margin-left: 150px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(176, 176,176 );
+}
+.s2{
+     background-color:rgba(97, 99, 100, 0.512) ;
+    border: none;
+    height: 40px;
+    width: 346px;
+    color: aliceblue;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.s1:hover{
+    background-color:rgb(177,2,2);
+}

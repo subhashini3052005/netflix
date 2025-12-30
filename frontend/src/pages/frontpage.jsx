@@ -1,6 +1,7 @@
 import React from 'react'
 import "./frontpage.css"
 import netflix from "../asset/netflix.png"
+import { Link } from 'react-router-dom'
 const Frontpage = () => {
   return (
     <div className="frontpage">
@@ -12,7 +13,7 @@ const Frontpage = () => {
           <option value="option1">Hindi</option>
           <option value="option2">Telugu</option>
         </select>
-        <button className='signin'>Sign In</button>
+        <Link className='signin' to = "/signin" >Sign In</Link>
         </div>
       </div>
       <div className="header">

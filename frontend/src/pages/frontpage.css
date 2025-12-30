@@ -18,7 +18,7 @@
 .signin{
     background-color:rgb(226,3,3) ;
     border: none;
-    height: 33px;
+    height: 29px;
     width: 78px;
     color: aliceblue;
     border-radius: 3px;
@@ -26,6 +26,9 @@
     cursor: pointer;
     font-size: 14px;
     transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 6px;
     
 }
 .right{
