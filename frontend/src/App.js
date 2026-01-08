@@ -4,13 +4,13 @@ import Frontpage from './pages/frontpage';
 import Trending from './pages/trending';
 import {Route,Routes}from "react-router-dom";
 import Home from './home';
-import Signin from './pages/signin';
+import Foot from './footer';
 
 function App() {
   return (
     <Routes>
       <Route path='/'element={<Home/>}/>
-      <Route path='/signin'element={<Signin/>}/>
+      <Route path='/signin'element={<Foot/>}/>
         
       
     </Routes>

@@ -1,0 +1,28 @@
+.footer{
+    background-color:rgb(9, 9, 9) ;
+    min-height: 45vh;
+    padding-top:20px;
+}
+.f1{
+     width: max-content;
+     margin: 0 auto; 
+     margin-top: 80px;
+     padding-bottom: 200px;
+     color: aliceblue;
+}
+.f2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    gap:12px;
+    margin-bottom: 50px;
+}
+.f1 h2{
+    color: rgb(176, 176,176 );
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 26px;
+}
+.f1 a{
+    color:rgb(176, 176,176 ) ;
+}
+

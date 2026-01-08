@@ -19,13 +19,13 @@ import netflix from "../asset/netflix.png"
         <button className='s1'>Sign In</button>
         <h3>OR</h3>
         <button className='s2'>Use a Sign-In Code</button>
-        <a href="">forget password?</a>
+        <a href="">Forget Password?</a>
        </div>
-       <input type="checkbox" />
-       <label >Remember me</label>
-       <h2 >New to Netflix?<a href="">Sign up now.</a></h2>
+       <input className="cb" type="checkbox" />
+       <label className='rm'>Remember me</label>
+       <h2 >New to Netflix?<a className='sn' href="">Sign up now.</a></h2>
        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
-       <a href="">learn more</a>
+       <a className='lm' href="">learn more</a>
       </div>
       </div>
 

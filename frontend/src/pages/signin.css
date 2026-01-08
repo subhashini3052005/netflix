@@ -2,11 +2,11 @@
      color: aliceblue;
     background-image: url("../asset/signin.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 115vh;
 }
 .contain{
     background-color: rgba(0, 0, 0, 0.562);
-    height: 600px;
+    height: 650px;
     width: 400px;
     margin: 0 auto;
     border-radius: 3px;
@@ -84,11 +84,47 @@
     width: 346px;
     color: aliceblue;
     border-radius: 3px;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
     font-size: 17px;
     transition: 0.3s;
 }
 .s1:hover{
     background-color:rgb(177,2,2);
+}
+.contain3 a{
+    display: flex;
+    margin-left: 110px;
+    color: aliceblue;
+    margin-top: 15px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+.cb{
+    height: 18px;
+    width: 18px;
+    
+}
+.rm{
+    position: relative;
+    top: -4px;
+    left: 6px;
+}
+.sign h2{
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(163, 167, 170) ;
+}
+.sn{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+}
+.sign p{
+    max-width: 350px;
+    font-size: 13px;
+    color:rgb(163, 167, 170) ;
+}
+.lm{
+    color: rgb(42,127,225);
 }
